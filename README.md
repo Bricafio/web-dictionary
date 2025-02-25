@@ -26,10 +26,17 @@ You can try the application live on **GitHub Pages**:
 - 📱 Fully responsive design.  
 
 ## 📁 Installation  
-```bash
-git clone https://github.com/Bricafio/DictionaryApp.git
-```
-Open the `index.html` file in your browser.
+To run the project locally, follow these steps:
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/Bricafio/DictionaryApp.git
+   ```
+2. Open the project folder in a code editor (e.g., **VS Code**).  
+3. Install the **Live Server** extension in VS Code.  
+4. Right-click on `index.html` and select **"Open with Live Server"** to launch the app.  
+
+> ⚠ Opening `index.html` directly in the browser won't work due to CORS restrictions.
 
 ## 🔗 API Reference  
 This project uses the [Free Dictionary API](https://dictionaryapi.dev/) to fetch word data.
