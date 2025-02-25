@@ -3,7 +3,7 @@
 
 ## 🖼️ Preview 
 <div align="center">
-  <img src="./assets/screenshots/screenshot.png" alt="Screenshot" width="700"/>
+  <img src="./screenshots/screenshot 1.png" alt="Screenshot" width="700"/>
 </div>
 
 ## 🛠️ Built With
