@@ -1,6 +1,10 @@
 # 📖 DictionaryApp
 **DictionaryApp** is an interactive web tool that allows users to search for word definitions, phonetics, synonyms, and examples in real-time. It integrates with an external dictionary API to provide accurate and comprehensive word data.
 
+## 🚀 Live Demo  
+You can try the application live on **GitHub Pages**:  
+🔗 [DictionaryApp Demo](https://bricafio.github.io/web-dictionary/) 
+
 ## 🖼️ Preview 
 <div align="center">
   <img src="./screenshots/screenshot 1.png" alt="Screenshot" width="700"/>
