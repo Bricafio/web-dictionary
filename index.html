@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+    <title>Dictionary</title>
+</head>
+<body>
+    <header class="nav">
+        <nav class="nav__options">
+            <span class="nav__logo">
+                <span class="nav__logo--square"></span>
+                <span class="nav__logo--line"></span>
+                <span class="nav__logo--bottom"></span>
+            </span>
+
+            <div class="nav__textfont">
+                <button class="nav__textfont--btn" id="textFontButton"> Georgia </button>
+                <span class="nav__textfont--display">v</span>
+                <div class="nav__textfont--list" id="textFontList">
+                    <button class="nav__textfont--item" id="font-GillSans"> Gill Sans MT</button>
+                    <button class="nav__textfont--item" id="font-TimesNewRoman"> Times New Roman</button>
+                    <button class="nav__textfont--item" id="font-Verdana"> Verdana</button>
+                    <button class="nav__textfont--item" id="font-SegoeUI"> Segoe UI</button>
+                </div>
+            </div>
+
+            <span class="nav__buttons">
+                <input type="checkbox" class="nav__button--checkbox" id="checkBox">
+
+                <label class="nav__button--slider">
+                    <span class="nav__button--slider-hadle"></span>
+                </label>
+
+                <button class="nav__button--click">
+                    <input type="checkbox" class="nav__button--checkbox">
+                    <p class="moon" id="iconPalet">☾</p>
+                </button>
+            </span>
+        </nav>
+
+        <form class="nav__search" id="form">
+            <input type="text" id="inputText" class="nav__input--text" placeholder="Search for a word...">
+            <input type="submit" id="inputSearch" class="nav__input--button" value="">
+            <span class="nav__input--button-line"></span>
+        </form>
+    </header>
+
+    <main class="dictionary">
+        <section>
+            <h1 class="dictionary__word" id="dictionaryWord">dictionary</h1>
+            <p class="dictionary__phonetics" id="dictionaryPhonetics">/ˈdɪkʃəˌnɛɹi/</p>
+
+            <button class="dictionary__button" id="dictionaryButton"><span class="dictionary__button--play"></span></button>
+            
+            <audio id="audioSource" src="https://api.dictionaryapi.dev/media/pronunciations/en/dictionary-uk.mp3"></audio>
+        </section>
+        
+        <section>
+            <h2 class="dictionary__noun">
+                noun
+            </h2>
+            <span class="dictionary__noun--line" ></span>
+            <h3 class="dictionary__meaning" >Meaning</h3>
+            <ul class="dictionary__meaning--list" id="nounList">
+                <li class="dictionary__meaning--item">A reference work with a list of words from one or more languages, normally ordered alphabetically, explaining each word's meaning, and sometimes containing information on its etymology, pronunciation, usage, translations, and other data.</li>
+                <li class="dictionary__meaning--item">(preceded by the) A synchronic dictionary of a standardised language held to only contain words that are properly part of the language.</li>
+                <li class="dictionary__meaning--item"> (by extension) Any work that has a list of material organized alphabetically; e.g., biographical dictionary, encyclopedic dictionary.</li>
+                <li class="dictionary__meaning--item"> An associative array, a data structure where each value is referenced by a particular key, analogous to words and definitions in a physical dictionary.</li>
+            </ul>
+            <h3 class="dictionary__synonyms">
+                Synonyms
+                <b class="dictionary__synonyms--words" id="synonyms">wordbook</b>
+            </h3>
+            
+        </section>
+
+        <section>
+            <h2 class="dictionary__verb">verb</h2>
+            <span class="dictionary__noun--line" ></span>
+            <h3 class="dictionary__meaning">Meaning</h3>
+            <ul class="dictionary__meaning--list" id="verbList">
+                <li class="dictionary__meaning--item">To look up in a dictionary.</li>
+                <li class="dictionary__meaning--item">To add to a dictionary.</li>
+                <li class="dictionary__meaning--item">To compile a dictionary.</li>
+            </ul>
+        </section>
+    </main>
+
+        
+    <footer class="footer">
+        <span class="dictionary__noun--line" ></span>
+        <h3 class="footer__source">Source</h3>
+        <a class="footer__link" id="link" href="https://es.wiktionary.org/wiki/dictionary">https://es.wiktionary.org/wiki/dictionary</a>
+    </footer>
+</body>
+</html>
